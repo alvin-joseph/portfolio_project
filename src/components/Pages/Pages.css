@@ -112,12 +112,13 @@ video {
     .link-container {
         left: 82%;
         height: 100%;
-        width: 10%;
-        top: 70%;
+        width: 13%;
+        top: 60%;
     }
     .link-container img {
         opacity: 1;
         width: 80%;
+        padding-bottom: 10%;
     }
     .scroll {
         display:none;
@@ -129,6 +130,9 @@ video {
 @media (max-width: 540px) and (min-height:720px) {
     .home > h1 {
         font-size: 50px;
+    }
+    .home > h1:hover{
+        font-size: 80px;
     }
     .home > h2 {
         font-size: 30px;
@@ -151,6 +155,9 @@ video {
     .home > h1 {
         font-size: 50px;
     }
+    .home > h1:hover{
+        font-size: 70px;
+    }
     .home > h2 {
         font-size: 30px;
     }
@@ -164,8 +171,11 @@ video {
         font-size: 18px;
     }
     .link-container {
-        left: 85%;
-        top: 64%;
+        left: 82%;
+        top: 71%;
+    }
+    .link-container img {
+        width: 90%;
     }
 }
 @media screen and (max-width: 360px) {

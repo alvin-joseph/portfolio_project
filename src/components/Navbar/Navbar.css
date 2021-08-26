@@ -173,6 +173,11 @@
         top: 63.5px;
     }
 }
+@media (max-width:384px) and (min-height:854px){
+    .nav-menu {
+        top: 68px;
+    }
+}
 @media (max-width:375px) and (min-height:667px){
     .nav-menu {
         top: 53px;

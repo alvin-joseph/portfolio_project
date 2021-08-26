@@ -234,6 +234,9 @@ h1 {
         left: 88%;
         width: 7%;
     }
+    .cards__item {
+        margin-bottom: 1rem;
+    }
     .cards__item__info {
         padding: 10px 20px 30px;
     }
@@ -245,9 +248,6 @@ h1 {
 @media screen and (max-width: 320px) {
     .cards > h1 {
         font-size: 14px;
-    }
-    .cards__item {
-        margin-bottom: 1rem;
     }
     .cards__item__info {
         padding: 5px 11px 30px;
