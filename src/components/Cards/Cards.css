@@ -63,7 +63,7 @@ h1 {
 }
 
 .cards__item__git img:hover {
-    filter:brightness(400%);
+    filter:brightness(150%);
 }
 
 .cards__item__pic-wrap {
