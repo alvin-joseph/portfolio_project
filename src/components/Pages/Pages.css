@@ -36,7 +36,7 @@ video {
 .link-container {
     position: fixed;
     top: 87%;
-    left: 42%;
+    left: auto;
 }
 .link-container img {
     margin: 0 25px;
