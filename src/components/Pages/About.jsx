@@ -2,21 +2,12 @@ import React from "react";
 import {
   Animator,
   batch,
-  Fade,
-  FadeIn,
-  Move,
   MoveIn,
   MoveOut,
-  ScrollContainer,
   ScrollPage,
-  Sticky,
-  StickyIn,
-  ZoomIn,
 } from "react-scroll-motion";
 
 function About() {
-  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-  const FadeUp = batch(Fade(), Move(), Sticky());
   return (
     <div className="about" id="about">
       <ScrollPage page={1}>
