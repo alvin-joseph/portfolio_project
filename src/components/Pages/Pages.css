@@ -78,7 +78,6 @@
 /* Projects Section */
 .projects {
     height: 100vh;
-    max-height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -123,15 +122,12 @@
 }
 @media (max-width: 1280px) {
     .projects {
-        height: 105vh;
+        height: auto;
     }
 }
 @media (max-width: 1200px) {
     .home > h1 {
         font-size: 80px;
-    }
-    .projects {
-        height: 135vh;
     }
     .link-container.contact-page {
         top: 420%;
