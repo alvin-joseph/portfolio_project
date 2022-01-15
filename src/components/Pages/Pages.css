@@ -52,7 +52,7 @@
 
 /* About section */
 .about {
-    height: 110vh;
+    height: 100vh;
     text-align: center;
     background: rgb(230, 230, 230);
     color: rgb(161, 20, 20);
@@ -122,12 +122,15 @@
 }
 @media (max-width: 1280px) {
     .projects {
-        height: auto;
+        height: 105vh;
     }
 }
 @media (max-width: 1200px) {
     .home > h1 {
         font-size: 80px;
+    }
+    .projects {
+        height: 135vh;
     }
     .link-container.contact-page {
         top: 420%;
@@ -159,15 +162,14 @@
 }
 @media screen and (max-width:768px){
     .link-container.home-page {
+        position: fixed;
         left: 82%;
         height: 100%;
         width: 13%;
         top: 60%;
     }
     .link-container.contact-page {
-        left: 82%;
-        width: 13%;
-        top: 410%;
+        display: none;
     }
     .link-container img {
         opacity: 1;
@@ -203,18 +205,10 @@
     .projects {
         height: 190vh;
     }
-    .link-container.contact-page {
-        top: 450%;
-    }
 }
 @media screen and (max-width: 500px) {
     .projects {
         height: 300vh;
-    }
-    .link-container.contact-page {
-        left: 82%;
-        width: 13%;
-        top: 520%;
     }
 }
 @media screen and (max-width: 414px) {
@@ -246,17 +240,13 @@
     .link-container.home-page {
         left: 78%;
     }
-    .link-container.contact-page {
-        left: 78%;
-        top: 550%;
+    .projects {
+        height: 325vh;
     }
 }
 @media screen and (max-width: 375px) {
     .projects {
         height: 350vh;
-    }
-    .link-container.contact-page {
-        top: 600%;
     }
 }
 @media screen and (max-width: 360px) {
