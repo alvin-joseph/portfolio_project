@@ -2,17 +2,18 @@ import React from "react";
 import {
   Animator,
   batch,
-  MoveIn,
-  MoveOut,
+  FadeIn,
   ScrollPage,
+  ZoomIn,
 } from "react-scroll-motion";
 
 function About() {
+  const ZoomInScrollOut = batch(FadeIn(), ZoomIn());
   return (
     <div className="about" id="about">
       <ScrollPage page={1}>
         <div className="about-container">
-          <Animator animation={batch(MoveIn(-900, 0), MoveOut(1000, 0))}>
+          <Animator animation={ZoomInScrollOut}>
             <h1>
               Hello, My name is Alvin{" "}
               <span
@@ -26,7 +27,7 @@ function About() {
               Joseph
             </h1>
           </Animator>
-          <Animator animation={batch(MoveIn(900, 0), MoveOut(-900, 0))}>
+          <Animator animation={ZoomInScrollOut}>
             <h2>
               I graduated from the Full Stack Web Development program from
               Lambda School. I am excited to start my career in the web
@@ -36,9 +37,8 @@ function About() {
               nice!
             </h2>
           </Animator>
-          <Animator animation={batch(MoveIn(-1000, 0), MoveOut(1000, 0))}>
+          <Animator animation={ZoomInScrollOut}>
             <img
-              className="lambda"
               src="https://assets-global.website-files.com/5cd091cfb5499f22bdf72905/60e899faca8141ea5319530b_Lambda%20School%20_%20Logo%20_%20Red%402x.png"
               alt="lambda school"
             />

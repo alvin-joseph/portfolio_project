@@ -52,7 +52,7 @@
 
 /* About section */
 .about {
-    height: 100vh;
+    height: 110vh;
     text-align: center;
     background: rgb(230, 230, 230);
     color: rgb(161, 20, 20);
@@ -70,10 +70,7 @@
     width: 100%;
     padding-bottom: 4%;
 }
-.about-container h2 {
-    margin: 0 9% 0 0;
-}
-.lambda {
+.about-container img {
     padding-top: 10%;
     width: 30%;
 }
@@ -126,12 +123,6 @@
 @media (max-width: 1280px) {
     .projects {
         height: 105vh;
-    }
-    .about-container h1 {
-        margin-left: 0;
-    }
-    .about-container img {
-        margin-left: 0;
     }
 }
 @media (max-width: 1200px) {
