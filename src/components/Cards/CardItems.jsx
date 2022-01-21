@@ -4,6 +4,7 @@ function CardItems(props) {
   const [toggleClass, setToggleClass] = useState("");
 
   const handleClick = () => {
+    console.log("hello");
     if (toggleClass === "is-flipped") {
       setToggleClass("");
     } else {
