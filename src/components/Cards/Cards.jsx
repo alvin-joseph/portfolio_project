@@ -28,16 +28,6 @@ function Cards() {
         <ul className="cards__items">
           <li className={current === 0 ? "slide active" : "slide"}>
             <CardItems
-              label="GIF Generator"
-              path="https://random-gif-generator-rust.vercel.app/"
-              github="https://github.com/alvin-joseph/random-gif-generator"
-              video="https://i.gyazo.com/78e6be5815a44627b2441b79e5034fe9.mp4"
-              poster="images/random-gif.PNG"
-              description="I implemented the GIPHY API in order to generate a random GIF on the click of a button along with one you can search. Built with React and the GIPHY API."
-            />
-          </li>
-          <li className={current === 1 ? "slide active" : "slide"}>
-            <CardItems
               label="To-Do App"
               path="https://todo-app-chi-green.vercel.app/"
               github="https://github.com/alvin-joseph/todo-app"
@@ -46,7 +36,7 @@ function Cards() {
               description="This app allows you to create and delete todo items. You are also able to set an item as either completed or uncompleted and filter by those categories. These items will also persist in the local drive. Built with React."
             />
           </li>
-          <li className={current === 2 ? "slide active" : "slide"}>
+          <li className={current === 1 ? "slide active" : "slide"}>
             <CardItems
               label="GitHub Followers"
               path="https://github-followers-omega.vercel.app/"
@@ -56,7 +46,7 @@ function Cards() {
               description="This project allows you to see the image, name, and GitHub username of all your GitHub followers. You are also able to search for other users as well. Built with React, GitHub API, and Styled Components."
             />
           </li>
-          <li className={current === 3 ? "slide active" : "slide"}>
+          <li className={current === 2 ? "slide active" : "slide"}>
             <CardItems
               label="PokéApp"
               path="http://poke-app-ashy.vercel.app/"
@@ -64,6 +54,16 @@ function Cards() {
               video="https://i.gyazo.com/c274d00c0b177864ced0ad27c1892218.mp4"
               poster="images/poke-app.PNG"
               description="A list of the Kanto Region pokémon with details for each. Built with React, Bootstrap, and the PokéAPI."
+            />
+          </li>
+          <li className={current === 3 ? "slide active" : "slide"}>
+            <CardItems
+              label="Travel Pal"
+              path="https://travel-pal-ohkpuxqmf-alvin-joseph.vercel.app/"
+              github="https://github.com/alvin-joseph/travel-pal"
+              video="https://i.gyazo.com/24022ee00c8c78685666ad43f8235cdf.mp4"
+              poster="images/travel-pal.PNG"
+              description="This app allows you to create multiple trips. You are able to add notes and images to these trips. Created using React, Firebase, and Boostrap"
             />
           </li>
         </ul>
