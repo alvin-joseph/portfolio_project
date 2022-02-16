@@ -51,9 +51,9 @@ function Cards() {
               label="PokéApp"
               path="http://poke-app-ashy.vercel.app/"
               github="https://github.com/alvin-joseph/poke-app"
-              video="https://i.gyazo.com/c274d00c0b177864ced0ad27c1892218.mp4"
-              poster="images/poke-app.PNG"
-              description="A list of the Kanto Region pokémon with details for each. Built with React, Bootstrap, and the PokéAPI."
+              video="https://i.gyazo.com/609fa04aa9230edfcc1d172629457b78.mp4"
+              poster="images/pokemon-app.png"
+              description="A list of the Kanto Region pokémon with details for each. Built with React, Bootstrap, PokéAPI, Firebase, and Framer-Motion"
             />
           </li>
           <li className={current === 3 ? "slide active" : "slide"}>
